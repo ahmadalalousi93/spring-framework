@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
     @RequestMapping("/user")
     public String user(){
-        return "/user/userinfo.html";
+        
+        return "/user/userinfo.html"; //go to folder static and look overthere
     }
 }
