@@ -30,8 +30,8 @@ public class MentorController {
     @PostMapping("/confirm")
     public String showForm2(@ModelAttribute("mentor") Mentor mentor){
 
-//        return "mentor/mentor-confirmation";
-        return "redirect:/mentor/register";
+//        return "mentor/mentor-confirmation"; this is to redirect to new page with your data
+        return "redirect:/mentor/register"; // this is to stay on same page
     }
 
 
